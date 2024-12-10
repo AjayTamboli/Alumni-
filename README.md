@@ -11,3 +11,9 @@
 <H3>Technologies Used</H3>
 <li>Design: Figma</li>
 <li>Frontend: HTML, CSS, JavaScript</li> 
+
+## Development Credit
+
+Developed by [Ashish Sharma](https://github.com/ashish1332005) <br>
+
+Design by [Ajay Tamboli](https://github.com/AjayTamboli)
