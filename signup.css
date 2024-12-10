@@ -123,8 +123,8 @@ body {
 .input-group input:focus,
 .input-group select:focus,
 .input-group textarea:focus {
-  border-color: #4caf50; /* Green Highlight */
-  box-shadow: 0 0 8px rgba(76, 175, 80, 0.5); /* Green Glow */
+  border-color: #0975ab; /* Green Highlight */
+  box-shadow: 0 0 8px #0975ab; /* Green Glow */
   outline: none;
 }
 
@@ -157,7 +157,7 @@ body {
 .signup-button {
   width: 100%;
   padding: 12px;
-  background-color: #181292; /* Green Button */
+  background-color: #0975ab; /* blue Button */
   color: #ffffff; /* White Text */
   font-size: 16px;
   font-weight: bold;
