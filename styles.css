@@ -612,11 +612,11 @@ text-align: left;
 }
 .cta-button {
   padding: 10px 15px;
-  background-color: #ccae07;
+  background-color: #f7d200;
   color: #030303;
   text-align: center;
   border-radius: 50px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   cursor: pointer;
 
 }
