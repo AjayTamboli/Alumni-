@@ -1,13 +1,13 @@
-#Alumni-Association_Website
-Welcome to the Alumni Association Website repository! This project is dedicated to connecting alumni, fostering communication, and building a vibrant community for our alumni network.
+<H2>#Alumni-AssociationWebsite</H2>
+<p>Welcome to the Alumni Association Website repository! This project is dedicated to connecting alumni, fostering communication, and building a vibrant community for our alumni network.</p>
 
-Features
-Home Page: Direct links to all features for easy navigation.
-Events and Reunions
-Job Board
-Community Forum
-News and Updates
-End: Marks the completion of user interaction.
-**Technologies Used**
-Design: Figma
-Frontend: HTML, CSS, JavaScript 
+<H3>Features</H3>
+<li>Home Page: Direct links to all features for easy navigation </li> 
+<li>Events and Reunions</li>
+<li>Job Board</li>
+<li>Community Forum</li>
+<li>News and Updates</li>
+
+<H3>Technologies Used</H3>
+<li>Design: Figma</li>
+<li>Frontend: HTML, CSS, JavaScript</li> 
