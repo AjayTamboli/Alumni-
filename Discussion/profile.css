@@ -1,0 +1,86 @@
+/* Profile Card Styles */
+.profile-card {
+    background-color: #f9f9f9; /* Matching background color with news section */
+    border-radius: 0.75rem; /* Slightly rounded corners */
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1); /* Matching box shadow effect */
+    padding: 1.75rem; /* Slightly more padding for balance */
+    text-align: center;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd; /* Light border around the card */
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.profile-card:hover {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.15); /* More prominent shadow on hover */
+}
+
+.profile-avatar {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: var(--gray-200); /* Default gray background for the avatar */
+    margin: 0 auto 1rem;
+}
+
+.profile-card h3 {
+    font-size: 1.5rem; /* Slightly larger font size for a bold profile header */
+    font-weight: 700; /* Stronger font weight */
+    margin-bottom: 0.25rem;
+    color: #000000; /* Black color for the heading */
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Increased gap between social links */
+    margin-bottom: 1.25rem;
+}
+
+.social-link {
+    color: #555555; /* Neutral gray for social icons */
+    font-size: 1.25rem; /* Slightly larger icons */
+    transition: color 0.2s;
+}
+
+.social-link.instagram:hover {
+    color: #e1306c; /* Instagram color */
+}
+
+.social-link.linkedin:hover {
+    color: #0077b5; /* LinkedIn color */
+}
+
+.social-link.message:hover {
+    color: #22c55e; /* Message color */
+}
+
+.profile-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem; /* Larger gap between stats for better spacing */
+    margin-bottom: 1.25rem;
+}
+
+.stat-value {
+    font-weight: 700; /* Bold value for stats */
+}
+
+.stat-label {
+    font-size: 0.875rem;
+    color: #777777; /* Slightly lighter gray for labels */
+}
+
+.activity-btn {
+    width: 100%;
+    padding: 0.75rem 1.25rem;
+    background-color: #f1f1f1; /* Light gray background like the news section */
+    color: #333333; /* Darker text for readability */
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.activity-btn:hover {
+    background-color: #e4e4e4; /* Light hover effect similar to the news section */
+}

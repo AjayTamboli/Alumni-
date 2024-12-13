@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation Bar with Footer</title>
+  <link rel="stylesheet" href="Discussion/discussion.css">
+  <link rel="stylesheet" href="Discussion/main.css">
+  <link rel="stylesheet" href="Discussion/news.css">
+  <link rel="stylesheet" href="Discussion/profile.css">
+</head>
+<body>
+
+
+<!-- Navbar -->
+<nav class="navbar">
+  <!-- Logo -->
+  <div class="logo">
+    <a href="index.html"><img src="img.jpg" alt="Logo"><span></span></a>
+  </div>
+  
+
+  <!-- Hamburger Icon -->
+  <div class="hamburger" onclick="toggleMenu()">
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="line3"></div>
+  </div>
+  
+  <!-- Navigation Links -->
+  <div class="nav-links">
+    <div class="nav-item">
+      <a href="#" class="nav-link">
+        INITIATIVE 
+        <span class="arrow">▶</span>
+      </a>
+      <div class="dropdown">
+        <a href="student.html">Student Scholarships</a>
+        <a href="FInancialaid.html">Financial Aid</a>
+        <a href="recognition.html">Recognition and Awards</a>
+        <a href="mentorship.html">Mentorship Programs</a>
+      </div>
+    </div>
+    
+    <div class="nav-item">
+      <a href="#" class="nav-link">
+        COMMUNITY 
+        <span class="arrow">▶</span>
+      </a>
+      <div class="dropdown">
+        <a href="#">Alumni Search</a>
+        <a href="#">Chapters</a>
+    
+        <a href="#">Social Media</a>
+      </div>
+    </div>
+    
+    <div class="nav-item">
+      <a href="#" class="nav-link">
+        EVENTS 
+        <span class="arrow">▶</span>
+      </a>
+      <div class="dropdown">
+        <a href="#">At College</a>
+        <a href="#">Reunion</a>
+       
+        <a href="#">Virtual Session</a>
+      </div>
+    </div>
+    
+    <a href="discussion.html" class="nav-link">DISCUSSION</a>
+    <a href="about.us.html" class="nav-link">ABOUT US</a>
+    <a href="login.html" class="nav-link">LOGIN</a>
+    <script src="script.js"></script>
+  </div>
+  
+  <script src="script.js"></script>
+</nav>
+
+  <!-- Main Content -->
+  <main class="container main-content">
+    <div class="grid-layout">
+        <!-- Discussion Section -->
+        <div class="discussion-section">
+            <div class="discussion-header">
+                <h1>Alumni Discussion Forum</h1>
+                <p>Connect with fellow alumni and engage in meaningful discussions about various topics.</p>
+                
+                <div class="search-bar">
+                
+                  <div class="search-input-wrapper">
+                    <i class="lucide-search">&#128269;</i> <!-- Replace with proper SVG if needed -->
+                    <input type="text" placeholder="Search by Topic" class="search-input">
+                </div>
+                    <button class="search-btn">Search</button>
+                </div>
+            </div>
+
+            <div class="discussion-posts">
+                <article class="post">
+                    <div class="post-avatar"></div>
+                    <div class="post-content">
+                        <h3>Is Google Algorithm decide Users Thought Process?</h3>
+                        <div class="post-meta">
+                            <span>Started by Ajay</span>
+                            <span>•</span>
+                            <span>1 January 2025</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur. Augue id blandit at quis urna in. Quam tellus aliquam praesent amet tempor blandit.</p>
+                        <div class="post-actions">
+                            <button class="action-btn">
+                                <i class="lucide-message-circle">&#128172;</i>
+                                <span>100</span>
+                            </button>
+                            <button class="action-btn like">
+                                <i class="lucide-thumbs-up">&#128077;</i>
+                            </button>
+                            <button class="action-btn dislike">
+                                <i class="lucide-thumbs-down">&#128078;</i>
+                            </button>
+                            <button class="action-btn share">
+                                <i class="lucide-share-2">&#128257;</i>
+                            </button>
+                        </div>
+                    </div>
+                    <script src="discusion.js"></script>
+                </article>
+            </div>
+            <div class="discussion-posts">
+              <article class="post">
+                  <div class="post-avatar"></div>
+                  <div class="post-content">
+                      <h3>Is Google Algorithm decide Users Thought Process?</h3>
+                      <div class="post-meta">
+                          <span>Started by Ashish</span>
+                          <span>•</span>
+                          <span>1 January 2025</span>
+                      </div>
+                      <p>Lorem ipsum dolor sit amet consectetur. Augue id blandit at quis urna in. Quam tellus aliquam praesent amet tempor blandit.</p>
+                      <div class="post-actions">
+                          <button class="action-btn">
+                              <i class="lucide-message-circle">&#128172;</i>
+                              <span>100</span>
+                          </button>
+                          <button class="action-btn like">
+                              <i class="lucide-thumbs-up">&#128077;</i>
+                          </button>
+                          <button class="action-btn dislike">
+                              <i class="lucide-thumbs-down">&#128078;</i>
+                          </button>
+                          <button class="action-btn share">
+                              <i class="lucide-share-2">&#128257;</i>
+                          </button>
+                      </div>
+                  </div>
+                  <script src="discusion.js"></script>
+              </article>
+          </div>
+          <div class="discussion-posts">
+            <article class="post">
+                <div class="post-avatar"></div>
+                <div class="post-content">
+                    <h3>Is Google Algorithm decide Users Thought Process?</h3>
+                    <div class="post-meta">
+                        <span>Started by Ajay</span>
+                        <span>•</span>
+                        <span>1 January 2025</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur. Augue id blandit at quis urna in. Quam tellus aliquam praesent amet tempor blandit.</p>
+                    <div class="post-actions">
+                        <button class="action-btn">
+                            <i class="lucide-message-circle">&#128172;</i>
+                            <span>100</span>
+                        </button>
+                        <button class="action-btn like">
+                            <i class="lucide-thumbs-up">&#128077;</i>
+                        </button>
+                        <button class="action-btn dislike">
+                            <i class="lucide-thumbs-down">&#128078;</i>
+                        </button>
+                        <button class="action-btn share">
+                            <i class="lucide-share-2">&#128257;</i>
+                        </button>
+                    </div>
+                </div>
+                <script src="discusion.js"></script>
+            </article>
+        </div>
+        <div class="discussion-posts">
+          <article class="post">
+              <div class="post-avatar"></div>
+              <div class="post-content">
+                  <h3>Is Google Algorithm decide Users Thought Process?</h3>
+                  <div class="post-meta">
+                      <span>Started by Ajay</span>
+                      <span>•</span>
+                      <span>1 January 2025</span>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur. Augue id blandit at quis urna in. Quam tellus aliquam praesent amet tempor blandit.</p>
+                  <div class="post-actions">
+                      <button class="action-btn">
+                          <i class="lucide-message-circle">&#128172;</i>
+                          <span>100</span>
+                      </button>
+                      <button class="action-btn like">
+                          <i class="lucide-thumbs-up">&#128077;</i>
+                      </button>
+                      <button class="action-btn dislike">
+                          <i class="lucide-thumbs-down">&#128078;</i>
+                      </button>
+                      <button class="action-btn share">
+                          <i class="lucide-share-2">&#128257;</i>
+                      </button>
+                  </div>
+              </div>
+              <script src="discusion.js"></script>
+          </article>
+      </div>
+      <div class="discussion-posts">
+        <article class="post">
+            <div class="post-avatar"></div>
+            <div class="post-content">
+                <h3>Is Google Algorithm decide Users Thought Process?</h3>
+                <div class="post-meta">
+                    <span>Started by Ajay</span>
+                    <span>•</span>
+                    <span>1 January 2025</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur. Augue id blandit at quis urna in. Quam tellus aliquam praesent amet tempor blandit.</p>
+                <div class="post-actions">
+                    <button class="action-btn">
+                        <i class="lucide-message-circle">&#128172;</i>
+                        <span>100</span>
+                    </button>
+                    <button class="action-btn like">
+                        <i class="lucide-thumbs-up">&#128077;</i>
+                    </button>
+                    <button class="action-btn dislike">
+                        <i class="lucide-thumbs-down">&#128078;</i>
+                    </button>
+                    <button class="action-btn share">
+                        <i class="lucide-share-2">&#128257;</i>
+                    </button>
+                </div>
+            </div>
+            <script src="discusion.js"></script>
+        </article>
+    </div>
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <!-- User Profile -->
+            <div class="profile-card">
+                <div class="profile-avatar"></div>
+                <h3>Kartik Agarwal</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link instagram">
+                        <i class="lucide-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link linkedin">
+                        <i class="lucide-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-link message">
+                        <i class="lucide-message-square"></i>
+                    </a>
+                </div>
+                <div class="profile-stats">
+                    <div class="stat">
+                        <div class="stat-value">20</div>
+                        <div class="stat-label">Total Post</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">20</div>
+                        <div class="stat-label">Your Reply</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">20</div>
+                        <div class="stat-label">Comments</div>
+                    </div>
+                </div>
+                <button class="activity-btn">My Activity</button>
+            </div>
+
+            <!-- Latest News -->
+            <div class="news-card">
+              <h3>Latest News</h3>
+              <div class="news-box">
+                  <div class="news-item">
+                      <h4>AI Technology Revolution</h4>
+                      <p>Artificial Intelligence is transforming the tech world, with new advancements every day. AI is expected to play a major role in the future of human-computer interaction.</p>
+                  </div>
+                  <div class="news-item">
+                      <h4>Cloud Computing Growth</h4>
+                      <p>The demand for cloud computing services continues to grow, with more businesses adopting cloud-based solutions for scalability, flexibility, and cost savings.</p>
+                  </div>
+                  <div class="news-item">
+                      <h4>Electric Vehicles Surge</h4>
+                      <p>Electric vehicles are gaining popularity worldwide, with more affordable options and improved charging infrastructure, helping reduce environmental impact.</p>
+                  </div>
+              </div>
+              <a href="#" class="view-more">View More</a>
+          </div>
+          
+          
+        </aside>
+    </div>
+</main>
+ 
+<footer class="footer">
+  <div class="footer-container">
+    <!-- About Section -->
+    <div class="footer-section about">
+      <h3>About</h3>
+      <p>Welcome to IIT Dholakpur, the official platform dedicated to connecting alumni, empowering networks, and fostering lifelong bonds. Our mission is to bridge the past with the present, creating a space where former students can engage, inspire, and contribute to the growth of both current and future generations.</p>
+      
+      <p>The mission of the Alumni Association is to fund and promote education and research among students of the Indian Institute of Technology, Bombay. The organization will achieve its goals by providing financial and other resources towards the Indian Institute of Technology.</p>
+    </div>
+
+    <!-- Events Section -->
+    <div class="footer-section events">
+      <h3>Events</h3>
+      <ul>
+        <li>Annual Alumni Reunion: "Back to the Roots"</li>
+        <li>Dholakpur Innovators' Summit 2024</li>
+        <li>Career Catalyst Workshop</li>
+        <li>Alumni Sports Fest 2024</li>
+        <li>Give Back Campaign: Sponsor a Dream</li>
+        <li>Tech Talks Series: Future of AI and Sustainability</li>
+        <li>Global Alumni Meet 2024</li>
+      </ul>
+    </div>
+
+    <!-- Connect with Us Section -->
+    <div class="footer-section connect">
+      <h3>Connect with Us</h3>
+      <p>Stay in touch with the vibrant IIT Dholakpur Alumni network! Whether you want to collaborate, mentor, or simply reminisce, we’d love to hear from you.</p>
+      <ul>
+        <li>📧 Email: <a href="mailto:alumni@iitdholakpur.ac.in">alumni@iitdholakpur.ac.in</a></li>
+        <li>📞 Phone: <a href="tel:+919876543210">+91-9876543210</a></li>
+        <li>🌐 Website: <a href="http://www.iitdholakpuralumni.org" target="_blank">www.iitdholakpuralumni.org</a></li>
+        <li>📍 Address: Alumni Relations Office, IIT Dholakpur, Dholakpur City, India</li>
+      </ul>
+    </div>
+  </div>
+
+  
+
+  <div class="footer-bottom">
+    <p>&copy; 2024 IIT Dholakpur Alumni Network. All Rights Reserved.</p>
+    <ul class="footer-links">
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Terms of Use</a></li>
+    </ul>
+  </div>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

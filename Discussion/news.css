@@ -1,0 +1,121 @@
+/* Latest News Styles */
+.news-card {
+    background-color: #f9f9f9; /* Matching background color with profile card */
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+    padding: 1.75rem;
+    transition: box-shadow 0.2s ease-in-out;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    margin: 1rem auto; /* Center the card horizontally */
+    max-width: 900px; /* Set a maximum width to match profile card */
+    width: 100%; /* Ensure the card takes up the full width but no more than max-width */
+}
+
+.news-card:hover {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.news-card h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.news-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.news-item {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.news-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.news-item h4 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #333333;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.news-item p {
+    font-size: 0.95rem;
+    color: #555555;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+}
+
+.view-more {
+    font-size: 0.95rem;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+    padding-top: 0.75rem;
+    display: inline-block;
+    transition: color 0.2s, transform 0.2s ease-in-out;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.view-more:hover {
+    color: #2980b9;
+    transform: translateX(4px);
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .news-card {
+        padding: 1.5rem;
+        width: 100%; /* Reduce width on medium screens */
+    }
+
+    .news-card h3 {
+        font-size: 1.25rem;
+    }
+
+    .news-box {
+        gap: 1rem;
+    }
+
+    .news-item {
+        padding: 1rem;
+    }
+
+    .view-more {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .news-card {
+        padding: 1.25rem;
+        width: 100%; /* Further reduce width on smaller screens */
+    }
+
+    .news-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .news-item {
+        padding: 0.75rem;
+    }
+
+    .view-more {
+        font-size: 0.85rem;
+    }
+}
